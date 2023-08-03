@@ -30,7 +30,7 @@ jobs:
         
     - name: Restore dependencies
       run: dotnet restore
-      working-directory: uSync.Migrations
+      working-directory: src/
       
     - name: Determine Version with GitVersion (MSBuild in Proj will do this)
       id:   gitversion
