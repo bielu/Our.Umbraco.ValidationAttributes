@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{EA678F62
 		..\docs\README.md = ..\docs\README.md
 		..\docs\_config.yml = ..\docs\_config.yml
 		..\Directory.Build.props = ..\Directory.Build.props
+		..\.github\workflows\main.yml = ..\.github\workflows\main.yml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Our.Umbraco.ValidationAttributes.StaticAssets", "Our.Umbraco.ValidationAttributes.StaticAssets\Our.Umbraco.ValidationAttributes.StaticAssets.csproj", "{A4E32C0B-C878-4A6F-BF96-D99E8A025091}"
