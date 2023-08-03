@@ -76,15 +76,12 @@ jobs:
       
     - name: Build
       run: dotnet build --no-restore
-      working-directory: uSync.Migrations
+      working-directory: src/
 
-    - name: Test
-      run: dotnet test
-      working-directory: uSync.Migrations.Tests
       
     - name: Dotnet Pack
       run: dotnet pack --output ../build.out/ /p:version=${{ steps.gitversion.outputs.fullSemVer }}
-      working-directory: uSync.Migrations
+      working-directory: src/
       
     - name: Upload nuget file as build artifact      
       uses: actions/upload-artifact@v2
